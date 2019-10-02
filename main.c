@@ -187,12 +187,9 @@ int main(void)
   {
     APP_ERROR_CHECK(NRF_ERROR_INVALID_STATE);
   }
-
-  int8_t e = bmi160_get_sensor_data((BMI160_ACCEL_SEL | BMI160_GYRO_SEL | BMI160_TIME_SEL), &accel, &gyro, &sensor);
-
+  
   while (true)
-  {
-      e = bmi160_get_sensor_data((BMI160_ACCEL_SEL | BMI160_GYRO_SEL | BMI160_TIME_SEL), &accel, &gyro, &sensor);
+  {      
   }
 }
 /** @} */
