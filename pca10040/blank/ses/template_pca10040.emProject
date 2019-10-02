@@ -296,7 +296,8 @@
     </folder>
     <configuration
       Name="Release"
-      c_user_include_directories="../../../../../../components/drivers_ext/BMI160_driver" />
+      c_user_include_directories="../../../../../../components/drivers_ext/BMI160_driver"
+      gcc_optimization_level="Debug" />
   </project>
   <configuration
     Name="Release"

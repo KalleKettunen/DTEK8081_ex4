@@ -2,26 +2,49 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+  <BreakpointListItem trigger="" line="3733" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/drivers_ext/BMI160_driver/bmi160.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="3736" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../../../../components/drivers_ext/BMI160_driver/bmi160.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="191" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="193" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="195" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="196" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../main.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault;Reset"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
  </FrameBufferWindow>
- <Memory1/>
- <Memory2/>
- <Memory3/>
- <Memory4/>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="DTEK8081_Ex3" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="DTEK8081_Ex3" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="DTEK8081_Ex3" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="DTEK8081_Ex3" radix="16" sizeText="" addressText=""/>
+ </Memory4>
  <Project>
   <ProjectSessionItem path="DTEK8081_Ex3"/>
   <ProjectSessionItem path="DTEK8081_Ex3;DTEK8081_Ex3"/>
   <ProjectSessionItem path="DTEK8081_Ex3;DTEK8081_Ex3;Application"/>
   <ProjectSessionItem path="DTEK8081_Ex3;DTEK8081_Ex3;BMI160"/>
+  <ProjectSessionItem path="DTEK8081_Ex3;DTEK8081_Ex3;nRF_Libraries"/>
  </Project>
- <Register1/>
- <Register2/>
- <Register3/>
- <Register4/>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal;SPI0/EVENTS_READY;SPI0/INTENSET;SPI0/INTENCLR;SPI0/ENABLE;SPI0/RXD;SPI0/TXD;SPI0/FREQUENCY;SPI0/CONFIG;SPI0/PSEL.SCK;SPI0/PSEL.MOSI;SPI0/PSEL.MISO" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context;SPI0" name="DTEK8081_Ex3" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="DTEK8081_Ex3" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="DTEK8081_Ex3" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="DTEK8081_Ex3" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
  <Threads>
   <ThreadsWindow showLists=""/>
  </Threads>
@@ -29,7 +52,11 @@
   <Trace enabled="Yes"/>
  </TraceWindow>
  <Watch1>
-  <Watches active="1" update="Never"/>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="" name="rslt" radix="16" linenumber="0" filename=""/>
+   <Watchpoint expression="" name="e" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="gyro" name="gyro" radix="-1" linenumber="0" filename=""/>
+  </Watches>
  </Watch1>
  <Watch2>
   <Watches active="0" update="Never"/>
@@ -41,9 +68,18 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="51" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="194" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="166" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="spi_engine.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2807" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="2819" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="164" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error.h" selected="0" top="139" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error.c" selected="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="57" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="46" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="68" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="59" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_nrf/nrf_soc_nosd/nrf_error.h" selected="0" top="44" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="348" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_ext/BMI160_driver/bmi160_defs.h" selected="0" top="327" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="523" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_spi.h" selected="0" top="501" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1690" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_ext/BMI160_driver/bmi160.c" selected="0" top="1651" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_ext/BMI160_driver/bmi160.h" selected="0" top="420" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="DTEK8081_Ex3" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Work/nRF5_SDK_15.3.0_59ac345/components/drivers_ext/BMI160_driver" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="DTEK8081_Ex3" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Work/nRF5_SDK_15.3.0_59ac345/components/drivers_ext/BMI160_driver" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

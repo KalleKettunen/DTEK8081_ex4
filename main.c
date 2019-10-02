@@ -55,6 +55,9 @@
 #include "bmi160.h"
 #include "bmi160_defs.h"
 
+#include "nrf_delay.h"
+#include "app_error.h"
+
 #define SPI_INSTANCE 0 // SPI instance index. We use SPI master 0
 #define SPI_SS_PIN 26
 #define SPI_MISO_PIN 23
@@ -173,10 +176,23 @@ int8_t sensor_config()
  */
 int main(void)
 {
+  struct bmi160_sensor_data accel;
+  struct bmi160_sensor_data gyro;
+  uint32_t err_code;
+
+  err_code = spi_config();
+  APP_ERROR_CHECK(err_code);
+
+  if (sensor_config() != BMI160_OK)
+  {
+    APP_ERROR_CHECK(NRF_ERROR_INVALID_STATE);
+  }
+
+  int8_t e = bmi160_get_sensor_data((BMI160_ACCEL_SEL | BMI160_GYRO_SEL | BMI160_TIME_SEL), &accel, &gyro, &sensor);
 
   while (true)
   {
- 
+      e = bmi160_get_sensor_data((BMI160_ACCEL_SEL | BMI160_GYRO_SEL | BMI160_TIME_SEL), &accel, &gyro, &sensor);
   }
 }
 /** @} */
